@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="위시리스트" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="리스트 통계" />
+        <item
+            android:id="@+id/nav_timeline"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="타임라인" />
+    </group>
+
+    <item android:title="기타">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_share"
+                android:title="환경 설정" />
+            <item
+                android:id="@+id/nav_credit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="개발자 정보" />
+        </menu>
+    </item>
+
+</menu>

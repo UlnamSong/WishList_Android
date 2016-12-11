@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tvDialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="할 일 정보"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:text="내용"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:id="@+id/tvDialogContent"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tvTitleContent"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tvDialogContent"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="해외 여행 갖다오기"
+            android:gravity="center_vertical"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="카테고리"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:id="@+id/tvCategory"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/tvTitleContent"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:layout_alignParentStart="true"
+            android:id="@+id/tvCategoryContent"
+            android:layout_below="@+id/tvCategory"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:text="여행"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="중요도"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvImportancy"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/tvCategoryContent"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvImportancyContent"
+            android:layout_below="@+id/tvImportancy"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:text="1순위"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="현재 진행 정도"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvMax"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/tvImportancyContent"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tvMaxContent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:layout_below="@+id/tvMax"
+            android:layout_alignParentStart="true"
+            android:text="1 / 10회"
+            android:gravity="center_vertical"
+            android:layout_height="25dp" />
+
+        <Button
+            android:layout_below="@+id/doButton"
+            android:id="@+id/deleteButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="삭제하기"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:scaleType="fitCenter"
+            android:background="@drawable/delete_button_bg"
+            android:textColor="@color/colorLoginWhite"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/doButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="1회 수행합니다"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:scaleType="fitCenter"
+            android:background="@drawable/primary_button_bg"
+            android:textColor="@color/colorLoginWhite"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/tvMaxContent" />
+
+        <TextView
+            android:text="닫기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/backButton"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@+id/deleteButton"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_statistics"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_equalizer_white_36dp"
+        android:title="통계 보기"
+        app:showAsAction="withText|ifRoom" />
+
+    <item
+        android:id="@+id/action_deleteall"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_delete_forever_white_36dp"
+        android:title="모두 삭제"
+        app:showAsAction="withText|ifRoom" />
+<!--
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="100"
+        android:title="환경 설정"
+        app:showAsAction="never" />
+-->
+
+    <item
+        android:id="@+id/action_credit"
+        android:orderInCategory="100"
+        android:title="개발자 정보"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tvDialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="개발자 정보"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:text="기획 및 디자인"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:id="@+id/tvDialogContent"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tvTitleContent"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tvDialogContent"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp"
+            android:text="김태인 - 숭실대학교 컴퓨터학부"
+            android:gravity="center_vertical"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="개발"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:id="@+id/tvCategory"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/tvTitleContent"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:layout_alignParentStart="true"
+            android:id="@+id/tvCategoryContent"
+            android:layout_below="@+id/tvCategory"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:text="김태인 - 숭실대학교 컴퓨터학부"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="문의 및 피드백"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvImportancy"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/tvCategoryContent"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvImportancyContent"
+            android:layout_below="@+id/tvImportancy"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:text="gydect48@gmail.com"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="25dp" />
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="닫기"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:scaleType="fitCenter"
+            android:background="@drawable/primary_button_bg"
+            android:textColor="@color/colorLoginWhite"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/tvImportancyContent" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

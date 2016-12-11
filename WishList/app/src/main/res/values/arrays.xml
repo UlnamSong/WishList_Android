@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_list">
+        <item>학습</item>
+        <item>건강</item>
+        <item>여행</item>
+        <item>자격증</item>
+        <item>취미</item>
+        <item>자기계발</item>
+        <item>생산성</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="importancy_list">
+        <item>1순위</item>
+        <item>2순위</item>
+        <item>3순위</item>
+    </string-array>
+</resources>

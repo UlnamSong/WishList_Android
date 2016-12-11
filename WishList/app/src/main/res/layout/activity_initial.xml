@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_initial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ulnamsong.wishlist.Activity.InitialActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleTop"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:text="죽·기·전·에·꼭·해·야·할·일"
+        android:layout_marginTop="80dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="위시리스트"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:id="@+id/titleBottom"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/name"
+        android:layout_below="@+id/titleBottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/nameImage"
+        android:layout_width="90dp" />
+
+    <TextView
+        android:text="당신의 소중한 이름을 입력해주세요."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/nameInputText"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameInput"
+        android:layout_below="@+id/nameInputText"
+        android:layout_alignParentStart="true"
+        android:textColorLink="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_height="50dp" />
+
+    <Button
+        android:text="완료하고 시작하기"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/nameInput"
+        android:id="@+id/okButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/initial_button_bg"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_height="45dp" />
+</RelativeLayout>

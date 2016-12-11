@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_statistics"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ulnamsong.wishlist.Activity.StatisticsActivity">
+
+    <TextView
+        android:text="당신의 총 달성률은?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvTitle"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:id="@+id/frameLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp">
+
+        <at.grabner.circleprogress.CircleProgressView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            app:cpv_maxValue="100"
+            app:cpv_barColor="@color/colorPrimary"
+            app:cpv_rimColor="@color/colorGraphBackground"
+            app:cpv_barWidth="20dp"
+            app:cpv_rimWidth="20dp"
+            app:cpv_value="37"
+            app:cpv_barStrokeCap="Round"
+            app:cpv_innerContourSize="0dp"
+            app:cpv_outerContourSize="0dp"
+            android:layout_below="@+id/tvTitle"
+            app:cpv_textColor="@color/colorPrimary"
+            app:cpv_autoTextSize="false"
+            app:cpv_autoTextColor="false"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:id="@+id/main_graph"
+            app:cpv_textSize="0dp"
+            app:cpv_spinSpeed="1"
+            app:cpv_startAngle="-90">
+
+        </at.grabner.circleprogress.CircleProgressView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="37%"
+            android:id="@+id/main_graph_val"
+            android:scaleType="center"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="45sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:text="카테고리 별 달성도"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frameLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/tvCategoryTitle"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCategoryTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="학습"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category1_title"
+                android:layout_weight="1.15"
+                android:gravity="left|center_vertical"
+                android:layout_height="40dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="100%"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category1_val"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorImportancyRegular"
+                android:textSize="24sp"
+                android:layout_height="40dp"
+                android:layout_marginRight="7dp" />
+
+            <TextView
+                android:text="건강"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category2_title"
+                android:layout_weight="1.15"
+                android:gravity="left|center_vertical"
+                android:layout_height="40dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="100%"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category2_val"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorImportancyLow"
+                android:textSize="24sp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="여행"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category3_title"
+                android:layout_weight="1.15"
+                android:gravity="left|center_vertical"
+                android:layout_height="40dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="100%"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category3_val"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorImportancyFinished"
+                android:textSize="24sp"
+                android:layout_height="40dp"
+                android:layout_marginRight="7dp" />
+
+            <TextView
+                android:text="자격증"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category4_title"
+                android:layout_weight="1.15"
+                android:gravity="left|center_vertical"
+                android:layout_height="40dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="100%"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category4_val"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorLoginPressedPrimary"
+                android:textSize="24sp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="취미"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category5_title"
+                android:layout_weight="1.15"
+                android:gravity="left|center_vertical"
+                android:layout_height="40dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="100%"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category5_val"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorImportancyLow"
+                android:textSize="24sp"
+                android:layout_height="40dp"
+                android:layout_marginRight="7dp" />
+
+            <TextView
+                android:text="자기계발"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category6_title"
+                android:layout_weight="1.15"
+                android:gravity="left|center_vertical"
+                android:layout_height="40dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="100%"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category6_val"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="생산성"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category7_title"
+                android:layout_weight="1.15"
+                android:gravity="left|center_vertical"
+                android:layout_height="40dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="100%"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category7_val"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorLoginPressedPrimary"
+                android:textSize="24sp"
+                android:layout_height="40dp"
+                android:layout_marginRight="7dp" />
+
+            <TextView
+                android:text="기타"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category8_title"
+                android:layout_weight="1.15"
+                android:gravity="left|center_vertical"
+                android:layout_height="40dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:text="100%"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_category8_val"
+                android:layout_weight="1.1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/colorImportancyFinished"
+                android:textSize="24sp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
