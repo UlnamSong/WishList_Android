@@ -79,7 +79,7 @@ public class StatisticsActivity extends AppCompatActivity {
         TextView TextViewNewFont = new TextView(StatisticsActivity.this);
         FrameLayout.LayoutParams layoutparams = new FrameLayout.LayoutParams(ActionBar.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.WRAP_CONTENT);
         TextViewNewFont.setLayoutParams(layoutparams);
-        TextViewNewFont.setText("리스트 통계");
+        TextViewNewFont.setText(getString(R.string.statistics_activity_title));
 
         // TextView Color
         TextViewNewFont.setTextColor(getResources().getColor(R.color.actionbar_text_color));
@@ -108,6 +108,16 @@ public class StatisticsActivity extends AppCompatActivity {
 
         tvGraphValue.setText(mainPercent + "%");
 
+        String[] strs = getResources().getStringArray(R.array.category_list);
+
+        tvCategory1Title.setText(strs[0]);
+        tvCategory2Title.setText(strs[1]);
+        tvCategory3Title.setText(strs[2]);
+        tvCategory4Title.setText(strs[3]);
+        tvCategory5Title.setText(strs[4]);
+        tvCategory6Title.setText(strs[5]);
+        tvCategory7Title.setText(strs[6]);
+        tvCategory8Title.setText(strs[7]);
         tvCategory1Content.setText(category_percent[0] + "%");
         tvCategory2Content.setText(category_percent[1] + "%");
         tvCategory3Content.setText(category_percent[2] + "%");

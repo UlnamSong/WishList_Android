@@ -2,6 +2,7 @@ package com.ulnamsong.wishlist.Activity;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -68,7 +69,7 @@ public class AddWishDialog extends Dialog {
         etTitle = (EditText) findViewById(R.id.etTitle);
 
         spinnerCategory = (Spinner) findViewById(R.id.spinnerCategory);
-        spinnerImportancy = (Spinner) findViewById(R.id.spinnerImportancy);
+        spinnerImportancy = (Spinner) findViewById(R.id.spinner_content);
 
         addButton = (Button) findViewById(R.id.deleteButton);
         backButton = (Button) findViewById(R.id.backButton);
@@ -133,7 +134,24 @@ public class AddWishDialog extends Dialog {
             public void onClick(View view) {
                 isAddProcess = true;
                 Log.d(TAG, "onClick: Data Added.");
-                dismiss();
+
+                if(etTitle.getText().toString().equals("") || etMax.getText().toString().equals("")) {
+                    Log.d(TAG, "onClick: Error");
+                    final OneButtonDialog oneButtonDialog = new OneButtonDialog(context);
+                    oneButtonDialog.setOnShowListener(new OnShowListener() {
+                        @Override
+                        public void onShow(DialogInterface dialogInterface) {
+                            oneButtonDialog.tvDialogTitle.setText(context.getString(R.string.additem_inputerror));
+                            oneButtonDialog.tvDialogContent.setText(context.getString(R.string.additem_inputerror_content));
+                            oneButtonDialog.positiveButton.setText(context.getString(R.string.one_dialog_ok));
+                        }
+                    });
+                    oneButtonDialog.setOnDismissListener(null);
+                    oneButtonDialog.setCancelable(false);
+                    oneButtonDialog.show();
+                } else {
+                    dismiss();
+                }
             }
         });
 

@@ -43,9 +43,9 @@ public class InitialActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(nameInput.getText().toString().equals("")) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(InitialActivity.this);
-                    builder.setTitle("이름 입력");
-                    builder.setMessage("당신의 소중한 이름을 입력해주세요.");
-                    builder.setPositiveButton("확인", null);
+                    builder.setTitle(getString(R.string.name_input));
+                    builder.setMessage(getString(R.string.initial_input_name));
+                    builder.setPositiveButton(getString(R.string.one_dialog_ok), null);
                     builder.show();
                 } else {
                     // 사용자 이름 설정
@@ -62,9 +62,9 @@ public class InitialActivity extends AppCompatActivity {
                     oneButtonDialog.setOnShowListener(new DialogInterface.OnShowListener() {
                         @Override
                         public void onShow(DialogInterface dialogInterface) {
-                            oneButtonDialog.tvDialogTitle.setText("환영합니다.");
-                            oneButtonDialog.tvDialogContent.setText("꿈을 이루시길 기원합니다!");
-                            oneButtonDialog.positiveButton.setText("확인");
+                            oneButtonDialog.tvDialogTitle.setText(getString(R.string.initial_welcome_title));
+                            oneButtonDialog.tvDialogContent.setText(getString(R.string.initial_welcome_content));
+                            oneButtonDialog.positiveButton.setText(getString(R.string.one_dialog_ok));
                         }
                     });
 
@@ -106,10 +106,10 @@ public class InitialActivity extends AppCompatActivity {
         twoButtonDialog.setOnShowListener(new DialogInterface.OnShowListener() {
             @Override
             public void onShow(DialogInterface dialogInterface) {
-                twoButtonDialog.tvDialogTitle.setText("종료 확인");
-                twoButtonDialog.tvDialogContent.setText("어플리케이션을 종료합니다.");
-                twoButtonDialog.positiveButton.setText("확인");
-                twoButtonDialog.negativeButton.setText("취소");
+                twoButtonDialog.tvDialogTitle.setText(getString(R.string.exit_dialog_title));
+                twoButtonDialog.tvDialogContent.setText(getString(R.string.exit_dialog_content));
+                twoButtonDialog.positiveButton.setText(getString(R.string.two_dialog_ok));
+                twoButtonDialog.negativeButton.setText(getString(R.string.two_dialog_cancel));
             }
         });
         twoButtonDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {

@@ -25,6 +25,6 @@
     <item
         android:id="@+id/action_credit"
         android:orderInCategory="100"
-        android:title="개발자 정보"
+        android:title="@string/action_menu_developer_info"
         app:showAsAction="never" />
 </menu>

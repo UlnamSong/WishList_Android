@@ -12,7 +12,7 @@
     tools:context="com.ulnamsong.wishlist.Activity.StatisticsActivity">
 
     <TextView
-        android:text="당신의 총 달성률은?"
+        android:text="@string/statistics_top_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -71,7 +71,7 @@
     </FrameLayout>
 
     <TextView
-        android:text="카테고리 별 달성도"
+        android:text="@string/statistics_mid_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/frameLayout"
@@ -101,40 +101,45 @@
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category1_title"
                 android:layout_weight="1.15"
-                android:gravity="left|center_vertical"
-                android:layout_height="40dp"
-                android:textSize="16sp" />
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
 
             <TextView
                 android:text="100%"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category1_val"
                 android:layout_weight="1.1"
-                android:gravity="center_vertical|center_horizontal"
+                android:gravity="right|center_vertical"
                 android:textColor="@color/colorImportancyRegular"
                 android:textSize="24sp"
-                android:layout_height="40dp"
-                android:layout_marginRight="7dp" />
+                android:layout_marginRight="15dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
 
             <TextView
                 android:text="건강"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category2_title"
                 android:layout_weight="1.15"
-                android:gravity="left|center_vertical"
-                android:layout_height="40dp"
-                android:layout_marginLeft="7dp"
-                android:textSize="16sp" />
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="-5dp" />
 
             <TextView
                 android:text="100%"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category2_val"
                 android:layout_weight="1.1"
-                android:gravity="center_vertical|center_horizontal"
+                android:gravity="right|center_vertical"
                 android:textColor="@color/colorImportancyLow"
                 android:textSize="24sp"
-                android:layout_height="40dp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
         </LinearLayout>
 
         <LinearLayout
@@ -147,40 +152,45 @@
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category3_title"
                 android:layout_weight="1.15"
-                android:gravity="left|center_vertical"
-                android:layout_height="40dp"
-                android:textSize="16sp" />
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
 
             <TextView
                 android:text="100%"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category3_val"
                 android:layout_weight="1.1"
-                android:gravity="center_vertical|center_horizontal"
+                android:gravity="right|center_vertical"
                 android:textColor="@color/colorImportancyFinished"
                 android:textSize="24sp"
-                android:layout_height="40dp"
-                android:layout_marginRight="7dp" />
+                android:layout_marginRight="15dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
 
             <TextView
                 android:text="자격증"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category4_title"
                 android:layout_weight="1.15"
-                android:gravity="left|center_vertical"
-                android:layout_height="40dp"
-                android:layout_marginLeft="7dp"
-                android:textSize="16sp" />
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="-5dp" />
 
             <TextView
                 android:text="100%"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category4_val"
                 android:layout_weight="1.1"
-                android:gravity="center_vertical|center_horizontal"
+                android:gravity="right|center_vertical"
                 android:textColor="@color/colorLoginPressedPrimary"
                 android:textSize="24sp"
-                android:layout_height="40dp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
         </LinearLayout>
 
         <LinearLayout
@@ -193,40 +203,45 @@
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category5_title"
                 android:layout_weight="1.15"
-                android:gravity="left|center_vertical"
-                android:layout_height="40dp"
-                android:textSize="16sp" />
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
 
             <TextView
                 android:text="100%"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category5_val"
                 android:layout_weight="1.1"
-                android:gravity="center_vertical|center_horizontal"
+                android:gravity="right|center_vertical"
                 android:textColor="@color/colorImportancyLow"
                 android:textSize="24sp"
-                android:layout_height="40dp"
-                android:layout_marginRight="7dp" />
+                android:layout_marginRight="15dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
 
             <TextView
                 android:text="자기계발"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category6_title"
                 android:layout_weight="1.15"
-                android:gravity="left|center_vertical"
-                android:layout_height="40dp"
-                android:layout_marginLeft="7dp"
-                android:textSize="16sp" />
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="-5dp" />
 
             <TextView
                 android:text="100%"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category6_val"
                 android:layout_weight="1.1"
-                android:gravity="center_vertical|center_horizontal"
+                android:gravity="right|center_vertical"
                 android:textColor="@color/colorPrimary"
                 android:textSize="24sp"
-                android:layout_height="40dp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
         </LinearLayout>
 
         <LinearLayout
@@ -239,40 +254,45 @@
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category7_title"
                 android:layout_weight="1.15"
-                android:gravity="left|center_vertical"
-                android:layout_height="40dp"
-                android:textSize="16sp" />
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
 
             <TextView
                 android:text="100%"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category7_val"
                 android:layout_weight="1.1"
-                android:gravity="center_vertical|center_horizontal"
+                android:gravity="right|center_vertical"
                 android:textColor="@color/colorLoginPressedPrimary"
                 android:textSize="24sp"
-                android:layout_height="40dp"
-                android:layout_marginRight="7dp" />
+                android:layout_marginRight="15dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
 
             <TextView
                 android:text="기타"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category8_title"
                 android:layout_weight="1.15"
-                android:gravity="left|center_vertical"
-                android:layout_height="40dp"
-                android:layout_marginLeft="7dp"
-                android:textSize="16sp" />
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="-5dp" />
 
             <TextView
                 android:text="100%"
                 android:layout_width="match_parent"
                 android:id="@+id/tv_category8_val"
                 android:layout_weight="1.1"
-                android:gravity="center_vertical|center_horizontal"
+                android:gravity="right|center_vertical"
                 android:textColor="@color/colorImportancyFinished"
                 android:textSize="24sp"
-                android:layout_height="40dp" />
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
         </LinearLayout>
 
     </LinearLayout>

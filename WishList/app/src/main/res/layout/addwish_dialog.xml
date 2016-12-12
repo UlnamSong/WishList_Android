@@ -15,13 +15,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="할 일 추가"
+            android:text="@string/adddialog_dialog_title"
             android:textSize="16sp"
             android:textStyle="bold" />
 
 
         <TextView
-            android:text="해야할 일을 입력해주세요."
+            android:text="@string/adddialog_dialog_task_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -37,13 +37,14 @@
             android:layout_below="@+id/tvDialogContent"
             android:layout_alignParentStart="true"
             android:layout_marginTop="10dp"
-            android:hint="할 일을 입력해주세요."
+            android:hint="@string/adddialog_dialog_task_tv"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:singleLine="true" />
 
         <TextView
-            android:text="카테고리를 설정해주세요."
+            android:text="@string/adddialog_dialog_category_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -61,7 +62,7 @@
             android:layout_marginTop="10dp" />
 
         <TextView
-            android:text="중요도를 선택해주세요."
+            android:text="@string/adddialog_dialog_importancy_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -73,19 +74,19 @@
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:id="@+id/spinnerImportancy"
+            android:id="@+id/spinner_content"
             android:layout_below="@+id/tvImportancy"
             android:layout_alignParentStart="true"
             android:layout_marginTop="10dp" />
 
         <TextView
-            android:text="반복 횟수를 입력해주세요."
+            android:text="@string/adddialog_dialog_repeat_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:id="@+id/tvMax"
             android:textColor="@color/colorPrimary"
-            android:layout_below="@+id/spinnerImportancy"
+            android:layout_below="@+id/spinner_content"
             android:layout_alignParentStart="true" />
 
         <EditText
@@ -94,7 +95,7 @@
             android:layout_height="40dp"
             android:background="@drawable/edittext_primarybg"
             android:layout_marginTop="10dp"
-            android:hint="반복 횟수를 입력해주세요."
+            android:hint="@string/adddialog_dialog_repeat_tv"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:textSize="14sp"
@@ -107,7 +108,7 @@
             android:id="@+id/deleteButton"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="추가하기"
+            android:text="@string/adddialog_dialog_add_button"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:scaleType="fitCenter"
             android:background="@drawable/primary_button_bg"
@@ -118,7 +119,7 @@
             android:id="@+id/backButton"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="돌아가기"
+            android:text="@string/adddialog_dialog_back_button"
             android:scaleType="fitCenter"
             android:background="@drawable/primary_button_bg"
             style="@style/Widget.AppCompat.Button.Borderless"

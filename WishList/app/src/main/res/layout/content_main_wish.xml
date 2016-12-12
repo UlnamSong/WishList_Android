@@ -41,7 +41,7 @@
             android:layout_height="13dp" />
 
         <TextView
-            android:text=": 1순위"
+            android:text="@string/importance_high"
             android:layout_width="match_parent"
             android:id="@+id/tv_bot1"
             android:layout_weight="1"
@@ -61,7 +61,7 @@
             android:layout_height="13dp" />
 
         <TextView
-            android:text=": 2순위"
+            android:text="@string/importance_medium"
             android:layout_width="match_parent"
             android:id="@+id/tv_bot2"
             android:layout_weight="1"
@@ -81,7 +81,7 @@
             android:layout_height="13dp" />
 
         <TextView
-            android:text=": 3순위"
+            android:text="@string/importance_low"
             android:layout_width="match_parent"
             android:id="@+id/tv_bot3"
             android:layout_weight="1"
@@ -101,7 +101,7 @@
             android:layout_height="13dp" />
 
         <TextView
-            android:text=": 완료"
+            android:text="@string/importance_finish"
             android:layout_width="match_parent"
             android:id="@+id/tv_bot4"
             android:layout_weight="1"

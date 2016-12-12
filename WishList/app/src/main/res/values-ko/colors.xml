@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6695FF</color>
+    <color name="colorPrimaryDark">#6695FF</color>
+    <color name="colorAccent">#80A6FF</color>
+
+    <color name="colorLoginWhite">#FFFFFF</color>
+    <color name="colorLoginPressed">#DDDDDD</color>
+    <color name="colorLoginPressedPrimary">#5276CC</color>
+
+    <color name="colorImportancyRegular">#6695FF</color>
+    <color name="colorImportancyLow">#B899FF</color>
+    <color name="colorImportancyHigh">#E06997</color>
+    <color name="colorImportancyFinished">#AAAAAA</color>
+
+    <color name="colorRed">#FF6666</color>
+    <color name="colorLoginPressedRed">#CC5252</color>
+
+    <color name="actionbar_text_color">#CCDBFF</color>
+    <color name="colorGraphBackground">#e9edf5</color>
+</resources>

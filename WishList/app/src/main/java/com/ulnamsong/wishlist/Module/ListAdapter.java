@@ -64,7 +64,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
             case 3:
                 holder.importancyMark.setImageResource(R.drawable.importancy_finished);
                 holder.tv_percent.setTextColor(context.getResources().getColor(R.color.colorImportancyFinished));
-                holder.tv_percent.setText("완료");
+                holder.tv_percent.setText(context.getString(R.string.card_finish));
                 break;
         }
     }

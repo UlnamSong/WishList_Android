@@ -18,12 +18,12 @@
         android:id="@+id/titleTop"
         android:gravity="center_horizontal"
         android:textColor="#FFFFFF"
-        android:text="죽·기·전·에·꼭·해·야·할·일"
+        android:text="@string/initial_toptitle"
         android:layout_marginTop="80dp"
         android:textSize="18sp" />
 
     <TextView
-        android:text="위시리스트"
+        android:text="@string/initial_topMainTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/titleTop"
@@ -43,7 +43,7 @@
         android:layout_width="90dp" />
 
     <TextView
-        android:text="당신의 소중한 이름을 입력해주세요."
+        android:text="@string/initial_input_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/nameImage"
@@ -67,7 +67,7 @@
         android:layout_height="50dp" />
 
     <Button
-        android:text="완료하고 시작하기"
+        android:text="@string/initial_continue_button"
         android:layout_width="wrap_content"
         android:layout_below="@+id/nameInput"
         android:id="@+id/okButton"

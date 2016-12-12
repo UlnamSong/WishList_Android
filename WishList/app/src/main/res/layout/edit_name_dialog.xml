@@ -28,24 +28,37 @@
             android:layout_marginTop="40dp"
             android:id="@+id/tvDialogContent" />
 
+        <EditText
+            android:layout_width="match_parent"
+            android:focusable="true"
+            android:ems="10"
+            android:id="@+id/etContent"
+            android:layout_below="@+id/tvDialogContent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_primarybg"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="14sp" />
+
         <Button
             android:id="@+id/positive_button"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="확인"
+            android:text="@string/edit_okbutton"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:scaleType="fitCenter"
             android:background="@drawable/primary_button_bg"
             android:textColor="@color/colorLoginWhite"
             android:layout_alignParentStart="true"
             android:layout_marginTop="20dp"
-            android:layout_below="@+id/tvDialogContent" />
+            android:layout_below="@+id/etContent" />
 
         <Button
             android:id="@+id/negative_button"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="취소"
+            android:text="@string/edit_cancelbutton"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:scaleType="fitCenter"
             android:background="@drawable/delete_button_bg"

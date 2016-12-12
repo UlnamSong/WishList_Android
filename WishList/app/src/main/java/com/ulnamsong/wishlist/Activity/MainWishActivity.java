@@ -63,7 +63,7 @@ public class MainWishActivity extends AppCompatActivity {
         TextView TextViewNewFont = new TextView(MainWishActivity.this);
         FrameLayout.LayoutParams layoutparams = new FrameLayout.LayoutParams(ActionBar.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.WRAP_CONTENT);
         TextViewNewFont.setLayoutParams(layoutparams);
-        TextViewNewFont.setText("위시 리스트");
+        TextViewNewFont.setText(getString(R.string.title_activity_main_wish));
 
         // TextView Color
         TextViewNewFont.setTextColor(getResources().getColor(R.color.actionbar_text_color));
@@ -164,7 +164,6 @@ public class MainWishActivity extends AppCompatActivity {
 
                                 Log.e(TAG, "COUNT = " + cursor.getCount());
 
-                                //while (cursor.moveToNext()) {
                                 Log.d(TAG, "onShow: Cursor : " + cursor.getInt(cursor.getColumnIndex("_id")) + "\n"
                                         + cursor.getString(cursor.getColumnIndex("title")) + "\n"
                                         + cursor.getInt(cursor.getColumnIndex("category_index")) + "\n"
@@ -191,13 +190,17 @@ public class MainWishActivity extends AppCompatActivity {
                                 if(dialog.importancy == 3) {
                                     dialog.doButton.setEnabled(false);
                                     dialog.doButton.setVisibility(View.INVISIBLE);
+                                    dialog.modContentButton.setVisibility(View.INVISIBLE);
+                                    dialog.modCategoryButton.setVisibility(View.INVISIBLE);
+                                    dialog.modImportancyButton.setVisibility(View.INVISIBLE);
+                                    dialog.modRepeatButton.setVisibility(View.INVISIBLE);
 
-                                    dialog.tvImportancy.setText("생성 날짜");
+                                    dialog.tvImportancy.setText(getString(R.string.iteminfo_dialog_create_date));
                                     //dialog.tvImportancyContent.setText(cursor.getString(cursor.getColumnIndex("start_date")));
-                                    dialog.tvImportancyContent.setText(s_dateData.get(0) + "년 " + s_dateData.get(1) + "월 " + s_dateData.get(2) + "일");
+                                    dialog.tvImportancyContent.setText(s_dateData.get(0) + "/" + s_dateData.get(1) + "/" + s_dateData.get(2) + "");
 
-                                    dialog.tvMax.setText("완료 날짜");
-                                    dialog.tvMaxContent.setText(e_dateData.get(0) + "년 " + e_dateData.get(1) + "월 " + e_dateData.get(2) + "일");
+                                    dialog.tvMax.setText(getString(R.string.iteminfo_dialog_finish_date));
+                                    dialog.tvMaxContent.setText(e_dateData.get(0) + "/" + e_dateData.get(1) + "/" + e_dateData.get(2) + "");
                                 } else {
                                     dialog.doButton.setEnabled(true);
                                     dialog.doButton.setVisibility(View.VISIBLE);
@@ -207,7 +210,7 @@ public class MainWishActivity extends AppCompatActivity {
 
                                     dialog.tvMaxContent.setText(cursor.getString(cursor.getColumnIndex("cur_value"))
                                             + " / "
-                                            + cursor.getString(cursor.getColumnIndex("max_value")) + "회");
+                                            + cursor.getString(cursor.getColumnIndex("max_value")) + getString(R.string.iteminfo_dialog_progress_tag));
                                 }
 
                                 cursor.close();
@@ -255,10 +258,10 @@ public class MainWishActivity extends AppCompatActivity {
                                         t_dialog.setOnShowListener(new DialogInterface.OnShowListener() {
                                             @Override
                                             public void onShow(DialogInterface dialogInterface) {
-                                                t_dialog.tvDialogTitle.setText("항목 삭제");
-                                                t_dialog.tvDialogContent.setText("정말 삭제하시겠습니까?");
-                                                t_dialog.positiveButton.setText("예");
-                                                t_dialog.negativeButton.setText("아니오");
+                                                t_dialog.tvDialogTitle.setText(getString(R.string.delete_one_title));
+                                                t_dialog.tvDialogContent.setText(getString(R.string.delete_one_content));
+                                                t_dialog.positiveButton.setText(getString(R.string.two_dialog_yes));
+                                                t_dialog.negativeButton.setText(getString(R.string.two_dialog_no));
                                             }
                                         });
                                         t_dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
@@ -273,9 +276,9 @@ public class MainWishActivity extends AppCompatActivity {
                                                         o_dialog.setOnShowListener(new DialogInterface.OnShowListener() {
                                                             @Override
                                                             public void onShow(DialogInterface dialogInterface) {
-                                                                o_dialog.tvDialogTitle.setText("삭제 완료");
-                                                                o_dialog.tvDialogContent.setText("삭제되었습니다.");
-                                                                o_dialog.positiveButton.setText("확인");
+                                                                o_dialog.tvDialogTitle.setText(getString(R.string.delete_complete_title));
+                                                                o_dialog.tvDialogContent.setText(getString(R.string.delete_complete_content));
+                                                                o_dialog.positiveButton.setText(getString(R.string.one_dialog_ok));
                                                             }
                                                         });
                                                         o_dialog.setOnDismissListener(null);
@@ -292,35 +295,20 @@ public class MainWishActivity extends AppCompatActivity {
                                         });
                                         t_dialog.setCancelable(false);
                                         t_dialog.show();
-//
-//
-//
-//
-//                                        AlertDialog.Builder builder = new AlertDialog.Builder(MainWishActivity.this);
-//                                        builder.setTitle("항목 삭제");
-//                                        builder.setMessage("정말 삭제하시겠습니까?");
-//                                        builder.setPositiveButton("예", new DialogInterface.OnClickListener() {
-//                                            @Override
-//                                            public void onClick(DialogInterface dialogInterface, int i) {
-//                                                mDbOpenHelper.deleteColumn(dialog.id);
-//                                                updateRecyclerView();
-//
-//                                                AlertDialog.Builder builder = new AlertDialog.Builder(MainWishActivity.this);
-//                                                builder.setTitle("삭제 완료");
-//                                                builder.setMessage("삭제되었습니다.");
-//                                                builder.setPositiveButton("확인", null);
-//                                                builder.setCancelable(false);
-//                                                builder.show();
-//                                            }
-//                                        });
-//                                        builder.setNegativeButton("아니오", new DialogInterface.OnClickListener() {
-//                                            @Override
-//                                            public void onClick(DialogInterface dialogInterface, int i) {
-//                                                // Do Nothing
-//                                            }
-//                                        });
-//                                        builder.setCancelable(false);
-//                                        builder.show();
+                                        break;
+                                    case 3:
+                                        // Modify
+                                        result = mDbOpenHelper.updateColumn(dialog.id, dialog.title,
+                                                dialog.categoryIndex, dialog.curValue, dialog.maxValue,
+                                                dialog.importancy, dialog.startDate, getTodayDate());
+
+                                        if(result) {
+                                            //Toast.makeText(MainWishActivity.this, "수행하였습니다.", Toast.LENGTH_SHORT).show();
+                                            updateRecyclerView();
+                                        } else {
+                                            Log.d(TAG, "onDismiss: ERROR");
+                                        }
+
                                         break;
                                 }
                             }
@@ -419,10 +407,10 @@ public class MainWishActivity extends AppCompatActivity {
         twoButtonDialog.setOnShowListener(new DialogInterface.OnShowListener() {
             @Override
             public void onShow(DialogInterface dialogInterface) {
-                twoButtonDialog.tvDialogTitle.setText("종료 확인");
-                twoButtonDialog.tvDialogContent.setText("어플리케이션을 종료합니다.");
-                twoButtonDialog.positiveButton.setText("확인");
-                twoButtonDialog.negativeButton.setText("취소");
+                twoButtonDialog.tvDialogTitle.setText(getString(R.string.exit_dialog_title));
+                twoButtonDialog.tvDialogContent.setText(getString(R.string.exit_dialog_content));
+                twoButtonDialog.positiveButton.setText(getString(R.string.two_dialog_ok));
+                twoButtonDialog.negativeButton.setText(getString(R.string.two_dialog_cancel));
             }
         });
         twoButtonDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
@@ -458,10 +446,10 @@ public class MainWishActivity extends AppCompatActivity {
                 t_dialog.setOnShowListener(new DialogInterface.OnShowListener() {
                     @Override
                     public void onShow(DialogInterface dialogInterface) {
-                        t_dialog.tvDialogTitle.setText("모든 항목 삭제");
-                        t_dialog.tvDialogContent.setText("정말 모든 항목을 삭제하시겠습니까?");
-                        t_dialog.positiveButton.setText("예");
-                        t_dialog.negativeButton.setText("아니오");
+                        t_dialog.tvDialogTitle.setText(getString(R.string.delete_dialog_title));
+                        t_dialog.tvDialogContent.setText(getString(R.string.delete_dialog_content));
+                        t_dialog.positiveButton.setText(getString(R.string.two_dialog_yes));
+                        t_dialog.negativeButton.setText(getString(R.string.two_dialog_no));
                     }
                 });
                 t_dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
@@ -474,9 +462,9 @@ public class MainWishActivity extends AppCompatActivity {
                                     o_dialog.setOnShowListener(new DialogInterface.OnShowListener() {
                                         @Override
                                         public void onShow(DialogInterface dialogInterface) {
-                                            o_dialog.tvDialogTitle.setText("항목 없음");
-                                            o_dialog.tvDialogContent.setText("삭제할 항목이 없습니다.");
-                                            o_dialog.positiveButton.setText("확인");
+                                            o_dialog.tvDialogTitle.setText(getString(R.string.delete_nothing_title));
+                                            o_dialog.tvDialogContent.setText(getString(R.string.delete_nothing_content));
+                                            o_dialog.positiveButton.setText(getString(R.string.one_dialog_ok));
                                         }
                                     });
                                     o_dialog.setOnDismissListener(null);
@@ -490,9 +478,9 @@ public class MainWishActivity extends AppCompatActivity {
                                     o_dialog.setOnShowListener(new DialogInterface.OnShowListener() {
                                         @Override
                                         public void onShow(DialogInterface dialogInterface) {
-                                            o_dialog.tvDialogTitle.setText("삭제 완료");
-                                            o_dialog.tvDialogContent.setText("모든 항목이 삭제되었습니다.");
-                                            o_dialog.positiveButton.setText("확인");
+                                            o_dialog.tvDialogTitle.setText(getString(R.string.delete_complete_title_all));
+                                            o_dialog.tvDialogContent.setText(getString(R.string.delete_complete_content_all));
+                                            o_dialog.positiveButton.setText(getString(R.string.one_dialog_ok));
                                         }
                                     });
                                     o_dialog.setOnDismissListener(null);
