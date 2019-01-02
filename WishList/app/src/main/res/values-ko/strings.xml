@@ -1,127 +1,129 @@
 <resources>
-    <string name="app_name">위시리스트</string>
-    <string name="title_activity_main_wish">위시 리스트</string>
-    <string name="statistics_activity_title">리스트 통계</string>
+    <string name="app_name">To Doリスト</string>
+    <string name="title_activity_main_wish">To Doリスト</string>
+    <string name="statistics_activity_title">リストの統計</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">환경 설정</string>
+    <string name="action_settings">環境設定</string>
 
-    <string name="card_finish">완료</string>
-    <string name="action_menu_developer_info">개발자 정보</string>
+    <string name="card_finish">完了</string>
+    <string name="action_menu_developer_info">開発者向け情報</string>
 
-    <string name="two_dialog_yes">예</string>
-    <string name="two_dialog_no">아니오</string>
+    <string name="two_dialog_yes">はい</string>
+    <string name="two_dialog_no">いいえ</string>
 
-    <string name="two_dialog_ok">확인</string>
-    <string name="two_dialog_cancel">취소</string>
+    <string name="two_dialog_ok">確認</string>
+    <string name="two_dialog_cancel">キャンセル</string>
 
-    <string name="one_dialog_ok">확인</string>
+    <string name="one_dialog_ok">確認</string>
 
     <!-- Add Item Dialog -->
-    <string name="adddialog_dialog_title">할 일 추가</string>
-    <string name="adddialog_dialog_task_tv">해야할 일을 입력해주세요.</string>
-    <string name="adddialog_dialog_category_tv">카테고리를 설정해주세요.</string>
-    <string name="adddialog_dialog_importancy_tv">중요도를 선택해주세요.</string>
-    <string name="adddialog_dialog_repeat_tv">반복 횟수를 입력해주세요.</string>
-    <string name="adddialog_dialog_add_button">추가하기</string>
-    <string name="adddialog_dialog_back_button">돌아가기</string>
+    <string name="adddialog_dialog_title">することを追加</string>
+    <string name="adddialog_dialog_task_tv">やるべきことをご記入ください。</string>
+    <string name="adddialog_dialog_category_tv">カテゴリーを設定してください。</string>
+    <string name="adddialog_dialog_importancy_tv">重要度を選択してください。</string>
+    <string name="adddialog_dialog_repeat_tv">繰り返し回数を入力してください。</string>
+    <string name="adddialog_dialog_add_button">追加する</string>
+    <string name="adddialog_dialog_back_button">戻る</string>
 
     <!-- Item Info Dialog -->
-    <string name="iteminfo_dialog_title">할 일 정보</string>
-    <string name="iteminfo_dialog_content">내용</string>
-    <string name="iteminfo_dialog_category">카테고리</string>
+    <string name="iteminfo_dialog_title">することについて</string>
+    <string name="iteminfo_dialog_content">内容</string>
+    <string name="iteminfo_dialog_category">カテゴリー</string>
 
-    <string name="iteminfo_dialog_create_date">생성 날짜</string>
-    <string name="iteminfo_dialog_finish_date">완료 날짜</string>
+    <string name="iteminfo_dialog_create_date">作成日</string>
+    <string name="iteminfo_dialog_finish_date">完了日</string>
 
-    <string name="iteminfo_dialog_delete_button">삭제하기</string>
-    <string name="iteminfo_dialog_exit_button">닫기</string>
+    <string name="iteminfo_dialog_delete_button">削除する</string>
+    <string name="iteminfo_dialog_exit_button">閉じる</string>
 
     <!-- Item Info incomplete Dialog -->
-    <string name="iteminfo_dialog_importancy">중요도</string>
-    <string name="iteminfo_dialog_current">현재 진행 정도</string>
+    <string name="iteminfo_dialog_importancy">重要度</string>
+    <string name="iteminfo_dialog_current">現在進行程度</string>
     <string name="iteminfo_dialog_do_once">1회 수행합니다.</string>
-    <string name="iteminfo_dialog_progress_tag">회</string>
+    <string name="iteminfo_dialog_progress_tag">回</string>
 
 
     <!-- Statistics Activity -->
-    <string name="statistics_top_title">당신의 총 달성률은?</string>
-    <string name="statistics_mid_title">카테고리 별 달성도</string>
+    <string name="statistics_top_title">あなたの総達成率は？</string>
+    <string name="statistics_mid_title">カテゴリー別達成度</string>
 
     <!-- Delete -->
-    <string name="delete_dialog_title">모든 항목 삭제</string>
-    <string name="delete_dialog_content">정말 모든 항목을 삭제하시겠습니까?</string>
+    <string name="delete_dialog_title">すべての項目削除</string>
+    <string name="delete_dialog_content">本当にすべての項目を削除しますか？</string>
 
-    <string name="delete_complete_title">삭제 완료</string>
-    <string name="delete_complete_content">삭제되었습니다.</string>
-    <string name="delete_dialog_ok">확인</string>
+    <string name="delete_complete_title">削除完了</string>
+    <string name="delete_complete_content">削除された。</string>
+    <string name="delete_dialog_ok">確認</string>
 
-    <string name="importance_high">: 높음</string>
-    <string name="importance_medium">: 중간</string>
-    <string name="importance_low">: 낮음</string>
-    <string name="importance_finish">: 완료</string>
+    <string name="importance_high">: 高</string>
+    <string name="importance_medium">: 中</string>
+    <string name="importance_low">: 低</string>
+    <string name="importance_finish">: 完了</string>
 
     <!-- Delete No Thing -->
-    <string name="delete_nothing_title">항목 없음</string>
-    <string name="delete_nothing_content">삭제할 항목이 없습니다.</string>
+    <string name="delete_nothing_title">項目なし</string>
+    <string name="delete_nothing_content">削除する項目がありません。</string>
 
     <!-- Initial Activity -->
-    <string name="initial_toptitle">죽·기·전·에·꼭·해·야·할·일</string>
-    <string name="initial_topMainTitle">위시리스트</string>
-    <string name="initial_input_name">당신의 소중한 이름을 입력해주세요.</string>
-    <string name="initial_continue_button">완료하고 시작하기</string>
-    <string name="initial_welcome_title">환영합니다.</string>
-    <string name="initial_welcome_content">꿈을 이루시길 기원합니다.</string>
+    <string name="initial_toptitle">死ぬ前に必ずすべきなこと</string>
+    <string name="initial_topMainTitle">To Doリスト</string>
+    <string name="initial_input_name">あなたの大切な名前を入力してください。</string>
+    <string name="initial_continue_button">完了して開始する</string>
+    <string name="initial_welcome_title">歓迎します。</string>
+    <string name="initial_welcome_content">夢を成し遂げ道願っています。</string>
 
     <!-- Exit Dialog -->
-    <string name="exit_dialog_title">종료 확인</string>
-    <string name="exit_dialog_content">어플리케이션을 종료합니다.</string>
+    <string name="exit_dialog_title">終了確認</string>
+    <string name="exit_dialog_content">アプリケーションを終了します。</string>
 
     <!-- Developer Info -->
-    <string name="dev_info_title">개발자 정보</string>
-    <string name="dev_info_plan_design_title">기획 및 디자인</string>
-    <string name="dev_info_dev_title">개발</string>
-    <string name="dev_info_email">문의 및 피드백</string>
+    <string name="dev_info_title">開発者向け情報</string>
+    <string name="dev_info_plan_design_title">計画と設計</string>
+    <string name="dev_info_dev_title">開発</string>
+    <string name="dev_info_email">お問い合わせとフィードバック</string>
 
-    <string name="dev_info_name_content">김태인 - 숭실대학교 컴퓨터학부</string>
+    <string name="dev_info_name_content">ギムテイン - 崇実学校のコンピュータ学部</string>
     <string name="dev_info_email_content">gydect48@gmail.com</string>
-    <string name="dialog_close_button">닫기</string>
+    <string name="dialog_close_button">閉じる</string>
 
 
-    <string name="delete_one_title">항목 삭제</string>
-    <string name="delete_one_content">정말 삭제하시겠습니까?</string>
+    <string name="delete_one_title">エントリを削除する</string>
+    <string name="delete_one_content">本当に削除しますか？</string>
 
-    <string name="delete_complete_title_all">삭제 완료</string>
-    <string name="delete_complete_content_all">모든 항목이 삭제되었습니다.</string>
+    <string name="delete_complete_title_all">削除完了</string>
+    <string name="delete_complete_content_all">すべての項目が削除されました。</string>
 
-    <string name="name_input">이름 입력</string>
+    <string name="name_input">名前を入力</string>
 
-    <string name="additem_inputerror">입력 오류</string>
-    <string name="additem_inputerror_content">모든 항목을 입력해주세요.</string>
+    <string name="additem_inputerror">入力エラー</string>
+    <string name="additem_inputerror_content">すべての項目を入力してください。</string>
 
-    <string name="modify_text">수정</string>
+    <string name="modify_text">修正</string>
 
-    <string name="edit_okbutton">수정하기</string>
-    <string name="edit_cancelbutton">돌아가기</string>
+    <string name="edit_okbutton">修正する</string>
+    <string name="edit_cancelbutton">戻る</string>
 
     <!-- EDIT CONTENT -->
-    <string name="edit_content_dialog_title">내용 수정</string>
-    <string name="edit_content_dialog_content">내용을 입력해주세요.</string>
+    <string name="edit_content_dialog_title">内容の変更</string>
+    <string name="edit_content_dialog_content">内容を入力してください。</string>
 
-    <string name="edit_category_dialog_title">카테고리 수정</string>
-    <string name="edit_category_dialog_content">카테고리를 선택해주세요.</string>
+    <string name="edit_category_dialog_title">カテゴリーの変更</string>
+    <string name="edit_category_dialog_content">カテゴリーを選択してください。</string>
 
-    <string name="edit_importancy_dialog_title">중요도 수정</string>
-    <string name="edit_importancy_dialog_content">중요도를 선택해주세요.</string>
+    <string name="edit_importancy_dialog_title">重要度の変更</string>
+    <string name="edit_importancy_dialog_content">重要度を選択してください。</string>
 
-    <string name="edit_repeat_dialog_title">반복 횟수 수정</string>
-    <string name="edit_repeat_dialog_content">반복 횟수를 입력해주세요.</string>
+    <string name="edit_repeat_dialog_title">繰り返し回数の変更</string>
+    <string name="edit_repeat_dialog_content">繰り返し回数を入力してください。</string>
 
-    <string name="edit_complete_title">수정 완료</string>
-    <string name="edit_complete_content">수정이 완료되었습니다.</string>
+    <string name="edit_complete_title">修正完了</string>
+    <string name="edit_complete_content">修正が完了しました。</string>
 
-    <string name="edit_repeat_error_title">입력 오류</string>
-    <string name="edit_repeat_error_content">올바른 값을 입력해주세요.</string>
+    <string name="edit_repeat_error_title">入力エラー</string>
+    <string name="edit_repeat_error_content">正しい値を入力してください。</string>
+
+    <string name="splash_bottom">注意!&#10;アプリを削除したり、機器を初期化すると、&#10;すべてのデータが失われます。</string>
 </resources>

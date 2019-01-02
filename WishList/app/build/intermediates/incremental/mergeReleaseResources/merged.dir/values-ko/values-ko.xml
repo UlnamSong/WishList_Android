@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="category_list">
+        <item>학습</item>
+        <item>건강</item>
+        <item>여행</item>
+        <item>자격증</item>
+        <item>취미</item>
+        <item>자기계발</item>
+        <item>생산성</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="importancy_list">
+        <item>높음</item>
+        <item>중간</item>
+        <item>낮음</item>
+    </string-array>
+    <color name="actionbar_text_color">#CCDBFF</color>
+    <color name="colorAccent">#80A6FF</color>
+    <color name="colorGraphBackground">#e9edf5</color>
+    <color name="colorImportancyFinished">#AAAAAA</color>
+    <color name="colorImportancyHigh">#E06997</color>
+    <color name="colorImportancyLow">#B899FF</color>
+    <color name="colorImportancyRegular">#6695FF</color>
+    <color name="colorLoginPressed">#DDDDDD</color>
+    <color name="colorLoginPressedPrimary">#5276CC</color>
+    <color name="colorLoginPressedRed">#CC5252</color>
+    <color name="colorLoginWhite">#FFFFFF</color>
+    <color name="colorPrimary">#6695FF</color>
+    <color name="colorPrimaryDark">#6695FF</color>
+    <color name="colorRed">#FF6666</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"위로 탐색"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"옵션 더보기"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"완료"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"사용 안함"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"사용"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"검색..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"공유 대상"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>와(과) 공유"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"접기"</string>
+    <string name="action_menu_developer_info">개발자 정보</string>
+    <string name="action_settings">환경 설정</string>
+    <string name="adddialog_dialog_add_button">추가하기</string>
+    <string name="adddialog_dialog_back_button">돌아가기</string>
+    <string name="adddialog_dialog_category_tv">카테고리를 설정해주세요.</string>
+    <string name="adddialog_dialog_importancy_tv">중요도를 선택해주세요.</string>
+    <string name="adddialog_dialog_repeat_tv">반복 횟수를 입력해주세요.</string>
+    <string name="adddialog_dialog_task_tv">해야할 일을 입력해주세요.</string>
+    <string name="adddialog_dialog_title">할 일 추가</string>
+    <string name="additem_inputerror">입력 오류</string>
+    <string name="additem_inputerror_content">모든 항목을 입력해주세요.</string>
+    <string name="app_name">위시리스트</string>
+    <string name="card_finish">완료</string>
+    <string name="delete_complete_content">삭제되었습니다.</string>
+    <string name="delete_complete_content_all">모든 항목이 삭제되었습니다.</string>
+    <string name="delete_complete_title">삭제 완료</string>
+    <string name="delete_complete_title_all">삭제 완료</string>
+    <string name="delete_dialog_content">정말 모든 항목을 삭제하시겠습니까?</string>
+    <string name="delete_dialog_ok">확인</string>
+    <string name="delete_dialog_title">모든 항목 삭제</string>
+    <string name="delete_nothing_content">삭제할 항목이 없습니다.</string>
+    <string name="delete_nothing_title">항목 없음</string>
+    <string name="delete_one_content">정말 삭제하시겠습니까?</string>
+    <string name="delete_one_title">항목 삭제</string>
+    <string name="dev_info_dev_title">개발</string>
+    <string name="dev_info_email">문의 및 피드백</string>
+    <string name="dev_info_email_content">gydect48@gmail.com</string>
+    <string name="dev_info_name_content">김태인 - 숭실대학교 컴퓨터학부</string>
+    <string name="dev_info_plan_design_title">기획 및 디자인</string>
+    <string name="dev_info_title">개발자 정보</string>
+    <string name="dialog_close_button">닫기</string>
+    <string name="edit_cancelbutton">돌아가기</string>
+    <string name="edit_category_dialog_content">카테고리를 선택해주세요.</string>
+    <string name="edit_category_dialog_title">카테고리 수정</string>
+    <string name="edit_complete_content">수정이 완료되었습니다.</string>
+    <string name="edit_complete_title">수정 완료</string>
+    <string name="edit_content_dialog_content">내용을 입력해주세요.</string>
+    <string name="edit_content_dialog_title">내용 수정</string>
+    <string name="edit_importancy_dialog_content">중요도를 선택해주세요.</string>
+    <string name="edit_importancy_dialog_title">중요도 수정</string>
+    <string name="edit_okbutton">수정하기</string>
+    <string name="edit_repeat_dialog_content">반복 횟수를 입력해주세요.</string>
+    <string name="edit_repeat_dialog_title">반복 횟수 수정</string>
+    <string name="edit_repeat_error_content">올바른 값을 입력해주세요.</string>
+    <string name="edit_repeat_error_title">입력 오류</string>
+    <string name="exit_dialog_content">어플리케이션을 종료합니다.</string>
+    <string name="exit_dialog_title">종료 확인</string>
+    <string name="importance_finish">: 완료</string>
+    <string name="importance_high">: 높음</string>
+    <string name="importance_low">: 낮음</string>
+    <string name="importance_medium">: 중간</string>
+    <string name="initial_continue_button">완료하고 시작하기</string>
+    <string name="initial_input_name">당신의 소중한 이름을 입력해주세요.</string>
+    <string name="initial_topMainTitle">위시리스트</string>
+    <string name="initial_toptitle">죽·기·전·에·꼭·해·야·할·일</string>
+    <string name="initial_welcome_content">꿈을 이루시길 기원합니다.</string>
+    <string name="initial_welcome_title">환영합니다.</string>
+    <string name="iteminfo_dialog_category">카테고리</string>
+    <string name="iteminfo_dialog_content">내용</string>
+    <string name="iteminfo_dialog_create_date">생성 날짜</string>
+    <string name="iteminfo_dialog_current">현재 진행 정도</string>
+    <string name="iteminfo_dialog_delete_button">삭제하기</string>
+    <string name="iteminfo_dialog_do_once">1회 수행합니다.</string>
+    <string name="iteminfo_dialog_exit_button">닫기</string>
+    <string name="iteminfo_dialog_finish_date">완료 날짜</string>
+    <string name="iteminfo_dialog_importancy">중요도</string>
+    <string name="iteminfo_dialog_progress_tag">회</string>
+    <string name="iteminfo_dialog_title">할 일 정보</string>
+    <string name="modify_text">수정</string>
+    <string name="name_input">이름 입력</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="one_dialog_ok">확인</string>
+    <string msgid="146198913615257606" name="search_menu_title">"검색"</string>
+    <string name="statistics_activity_title">리스트 통계</string>
+    <string name="statistics_mid_title">카테고리 별 달성도</string>
+    <string name="statistics_top_title">당신의 총 달성률은?</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="title_activity_main_wish">위시 리스트</string>
+    <string name="two_dialog_cancel">취소</string>
+    <string name="two_dialog_no">아니오</string>
+    <string name="two_dialog_ok">확인</string>
+    <string name="two_dialog_yes">예</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TODOList</string>
+    <string name="title_activity_main_wish">WishList</string>
+    <string name="statistics_activity_title">List Statistics</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="card_finish">Complete</string>
+    <string name="action_menu_developer_info">Developer Info.</string>
+
+    <string name="two_dialog_yes">Yes</string>
+    <string name="two_dialog_no">No</string>
+
+    <string name="two_dialog_ok">OK</string>
+    <string name="two_dialog_cancel">Cancel</string>
+
+    <string name="one_dialog_ok">OK</string>
+
+    <string name="importance_high">: HIGH</string>
+    <string name="importance_medium">: MID</string>
+    <string name="importance_low">: LOW</string>
+    <string name="importance_finish">: FINISH</string>
+
+    <!-- Add Item Dialog -->
+    <string name="adddialog_dialog_title">Add Item</string>
+    <string name="adddialog_dialog_task_tv">Enter your To-Do Name.</string>
+    <string name="adddialog_dialog_category_tv">Set your category.</string>
+    <string name="adddialog_dialog_importancy_tv">Select your importance.</string>
+    <string name="adddialog_dialog_repeat_tv">Enter the repeat count.</string>
+    <string name="adddialog_dialog_add_button">ADD</string>
+    <string name="adddialog_dialog_back_button">BACK</string>
+
+    <!-- Item Info Dialog -->
+    <string name="iteminfo_dialog_title">Task Information</string>
+    <string name="iteminfo_dialog_content">Content</string>
+    <string name="iteminfo_dialog_category">Category</string>
+
+    <string name="iteminfo_dialog_create_date">Create Date</string>
+    <string name="iteminfo_dialog_finish_date">Complete Date</string>
+
+    <string name="iteminfo_dialog_delete_button">DELETE</string>
+    <string name="iteminfo_dialog_exit_button">CLOSE</string>
+
+    <!-- Item Info incomplete Dialog -->
+    <string name="iteminfo_dialog_importancy">Importance</string>
+    <string name="iteminfo_dialog_current">Current Progress</string>
+    <string name="iteminfo_dialog_do_once">Do the task 1 time</string>
+    <string name="iteminfo_dialog_progress_tag">Times</string>
+
+
+    <!-- Statistics Activity -->
+    <string name="statistics_top_title">Total Achievement Rate</string>
+    <string name="statistics_mid_title">Category Achievement Rate</string>
+
+    <!-- Delete -->
+    <string name="delete_dialog_title">Delete All Items</string>
+    <string name="delete_dialog_content">Do you really want to delete all items?</string>
+
+    <string name="delete_complete_title">Delete Complete</string>
+    <string name="delete_complete_content">Delete proceeded successfully.</string>
+    <string name="delete_dialog_ok">OK</string>
+
+    <!-- Delete No Thing -->
+    <string name="delete_nothing_title">No Item</string>
+    <string name="delete_nothing_content">There is no item to delete.</string>
+
+    <!-- Initial Activity -->
+    <string name="initial_toptitle">What I want to do</string>
+    <string name="initial_topMainTitle">Wish List</string>
+    <string name="initial_input_name">Enter your precious name.</string>
+    <string name="initial_continue_button">Continue</string>
+    <string name="initial_welcome_title">Welcome</string>
+    <string name="initial_welcome_content">I wish you all your dreams.</string>
+
+    <!-- Exit Dialog -->
+    <string name="exit_dialog_title">Application Exit</string>
+    <string name="exit_dialog_content">We will exit the application.</string>
+
+    <!-- Developer Info -->
+    <string name="dev_info_title">Developer Info.</string>
+    <string name="dev_info_plan_design_title">Plan / Design</string>
+    <string name="dev_info_dev_title">Development</string>
+    <string name="dev_info_email">QnA / Feedback</string>
+
+    <string name="dev_info_name_content">Taein Kim - Soongsil University</string>
+    <string name="dev_info_email_content">gydect48@gmail.com</string>
+    <string name="dialog_close_button">CLOSE</string>
+
+
+    <string name="delete_one_title">Item Delete</string>
+    <string name="delete_one_content">Do you really want to delete?</string>
+
+    <string name="delete_complete_title_all">Delete Complete</string>
+    <string name="delete_complete_content_all">All Items are deleted.</string>
+
+    <string name="name_input">Name Input</string>
+
+    <string name="additem_inputerror">Input Error</string>
+    <string name="additem_inputerror_content">Please enter all items.</string>
+
+    <string name="modify_text">MODIFY</string>
+
+    <string name="edit_okbutton">MODIFY</string>
+    <string name="edit_cancelbutton">BACK</string>
+
+    <!-- EDIT CONTENT -->
+    <string name="edit_content_dialog_title">Modify Content</string>
+    <string name="edit_content_dialog_content">Enter what you want to edit.</string>
+
+    <string name="edit_category_dialog_title">Modify Category</string>
+    <string name="edit_category_dialog_content">Select what you want to edit.</string>
+
+    <string name="edit_importancy_dialog_title">Modify Importance</string>
+    <string name="edit_importancy_dialog_content">Select what you want to edit.</string>
+
+    <string name="edit_repeat_dialog_title">Modify Repeat Count</string>
+    <string name="edit_repeat_dialog_content">Enter the repeat count.</string>
+
+    <string name="edit_complete_title">Modify Complete</string>
+    <string name="edit_complete_content">Modify is Complete.</string>
+
+    <string name="edit_repeat_error_title">Invalid Number</string>
+    <string name="edit_repeat_error_content">Please Check the entered value</string>
+
+    <string name="splash_bottom">WARNING!&#10;If you delete App or Reset your Device&#10;All Data will be removed.</string>
+</resources>

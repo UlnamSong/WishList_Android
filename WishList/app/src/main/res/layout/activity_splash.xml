@@ -21,7 +21,7 @@
         android:layout_width="80dp" />
 
     <TextView
-        android:text="주의!\n앱을 삭제하거나 기기를 초기화하면\n데이터가 사라집니다."
+        android:text="@string/splash_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
