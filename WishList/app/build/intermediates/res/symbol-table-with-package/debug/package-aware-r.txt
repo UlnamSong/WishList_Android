@@ -1245,6 +1245,7 @@ string additem_inputerror
 string additem_inputerror_content
 string app_name
 string appbar_scrolling_view_behavior
+string bold_font
 string bottom_sheet_behavior
 string card_finish
 string character_counter_pattern
@@ -1280,6 +1281,7 @@ string edit_repeat_dialog_content
 string edit_repeat_dialog_title
 string edit_repeat_error_content
 string edit_repeat_error_title
+string ex_bold_font
 string exit_dialog_content
 string exit_dialog_title
 string importance_finish
@@ -1303,6 +1305,7 @@ string iteminfo_dialog_finish_date
 string iteminfo_dialog_importancy
 string iteminfo_dialog_progress_tag
 string iteminfo_dialog_title
+string main_font
 string modify_text
 string name_input
 string navigation_drawer_close
@@ -1314,6 +1317,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
+string splash_bottom
 string statistics_activity_title
 string statistics_mid_title
 string statistics_top_title

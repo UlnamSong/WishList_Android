@@ -3,6 +3,8 @@ package com.ulnamsong.wishlist.Module;
 import android.content.Context;
 import android.graphics.Typeface;
 
+import com.ulnamsong.wishlist.R;
+
 /**
  * Created by Ulnamsong on 2016. 12. 9..
  */
@@ -14,15 +16,15 @@ public class TypefaceUtil {
 
     public static void loadTypeface(Context mContext) {
         if(typeface == null) {
-            typeface = Typeface.createFromAsset(mContext.getAssets(), "fonts/NanumSquareOTFRegular.otf");
+            typeface = Typeface.createFromAsset(mContext.getAssets(), mContext.getString(R.string.main_font));
         }
 
         if(typeface_m == null) {
-            typeface_m = Typeface.createFromAsset(mContext.getAssets(), "fonts/NanumSquareOTFBold.otf");
+            typeface_m = Typeface.createFromAsset(mContext.getAssets(), mContext.getString(R.string.bold_font));
         }
 
         if(typeface_b == null) {
-            typeface_b = Typeface.createFromAsset(mContext.getAssets(), "fonts/NanumSquareOTFExtraBold.otf");
+            typeface_b = Typeface.createFromAsset(mContext.getAssets(), mContext.getString(R.string.ex_bold_font));
         }
     }
 }

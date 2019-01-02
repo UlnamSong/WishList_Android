@@ -3993,15 +3993,16 @@ public final class R {
     public static final int path_password_eye_mask_visible=0x7f0e006c;
     public static final int path_password_strike_through=0x7f0e006d;
     public static final int search_menu_title=0x7f0e006e;
-    public static final int statistics_activity_title=0x7f0e006f;
-    public static final int statistics_mid_title=0x7f0e0070;
-    public static final int statistics_top_title=0x7f0e0071;
-    public static final int status_bar_notification_info_overflow=0x7f0e0072;
-    public static final int title_activity_main_wish=0x7f0e0073;
-    public static final int two_dialog_cancel=0x7f0e0074;
-    public static final int two_dialog_no=0x7f0e0075;
-    public static final int two_dialog_ok=0x7f0e0076;
-    public static final int two_dialog_yes=0x7f0e0077;
+    public static final int splash_bottom=0x7f0e006f;
+    public static final int statistics_activity_title=0x7f0e0070;
+    public static final int statistics_mid_title=0x7f0e0071;
+    public static final int statistics_top_title=0x7f0e0072;
+    public static final int status_bar_notification_info_overflow=0x7f0e0073;
+    public static final int title_activity_main_wish=0x7f0e0074;
+    public static final int two_dialog_cancel=0x7f0e0075;
+    public static final int two_dialog_no=0x7f0e0076;
+    public static final int two_dialog_ok=0x7f0e0077;
+    public static final int two_dialog_yes=0x7f0e0078;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;

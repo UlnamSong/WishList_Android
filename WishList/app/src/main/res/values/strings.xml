@@ -1,4 +1,8 @@
 <resources>
+    <string name="main_font">fonts/NanumSquareOTFRegular.otf</string>
+    <string name="bold_font">fonts/NanumSquareOTFBold.otf</string>
+    <string name="ex_bold_font">fonts/NanumSquareOTFExtraBold.otf</string>
+
     <string name="app_name">WishList</string>
     <string name="title_activity_main_wish">WishList</string>
     <string name="statistics_activity_title">List Statistics</string>
