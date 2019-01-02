@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 02 15:10:49 KST 2019
+#Wed Jan 02 16:36:40 KST 2019
 4.path=fonts/KosugiMaru-Regular.ttf
 13.baseType=DIRECTORY
 8.set=DEX

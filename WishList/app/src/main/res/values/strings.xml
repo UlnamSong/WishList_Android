@@ -129,5 +129,5 @@
     <string name="edit_repeat_error_title">Invalid Number</string>
     <string name="edit_repeat_error_content">Please Check the entered value</string>
 
-    <string name="splash_bottom">WARNING!&#10;If you delete App or Reset your Device&#10;All Data will be removed.</string>
+    <string name="splash_bottom">WARNING!\nIf you delete App or Reset your Device\nAll Data will be removed.</string>
 </resources>

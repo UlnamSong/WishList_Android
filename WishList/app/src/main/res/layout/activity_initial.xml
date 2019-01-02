@@ -9,7 +9,7 @@
     android:paddingLeft="30dp"
     android:paddingRight="30dp"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ulnamsong.wishlist.Activity.InitialActivity"
+    tools:context="com.ulnamsong.todolist.com.ulnamsong.todolist.Activity.InitialActivity"
     android:background="@color/colorPrimary">
 
     <TextView

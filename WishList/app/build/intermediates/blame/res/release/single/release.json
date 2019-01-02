@@ -1200,6 +1200,10 @@
         "source": "/Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f65b7ea0224c2ff63ad9bd818509a80b/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "/Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/build/intermediates/res/merged/release/drawable_splash_background.xml.flat",
+        "source": "/Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/res/drawable/splash_background.xml"
+    },
+    {
         "merged": "/Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/build/intermediates/res/merged/release/drawable_abc_spinner_textfield_background_material.xml.flat",
         "source": "/Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f65b7ea0224c2ff63ad9bd818509a80b/res/drawable/abc_spinner_textfield_background_material.xml"
     },

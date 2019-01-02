@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ulnamsong.wishlist"
-    android:versionCode="3"
-    android:versionName="0.4" >
+    package="com.ulnamsong.todolist"
+    android:versionCode="6"
+    android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -15,23 +15,23 @@
         android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@drawable/main_icon"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.ulnamsong.wishlist.Activity.SplashActivity" >
+        <activity android:name="com.ulnamsong.todolist.Activity.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.ulnamsong.wishlist.Activity.InitialActivity" />
+        <activity android:name="com.ulnamsong.todolist.Activity.InitialActivity" />
         <activity
-            android:name="com.ulnamsong.wishlist.Activity.MainWishActivity"
+            android:name="com.ulnamsong.todolist.Activity.MainWishActivity"
             android:label="@string/title_activity_main_wish" />
-        <activity android:name="com.ulnamsong.wishlist.Activity.StatisticsActivity" />
+        <activity android:name="com.ulnamsong.todolist.Activity.StatisticsActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
@@ -39,7 +39,7 @@
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.ulnamsong.wishlist.com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.ulnamsong.todolist.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 

@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ulnamsong.wishlist.Activity.StatisticsActivity">
+    tools:context="com.ulnamsong.todolist.com.ulnamsong.todolist.Activity.StatisticsActivity">
 
     <TextView
         android:text="@string/statistics_top_title"
@@ -58,15 +58,15 @@
         </at.grabner.circleprogress.CircleProgressView>
 
         <TextView
+            android:id="@+id/main_graph_val"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="37%"
-            android:id="@+id/main_graph_val"
-            android:scaleType="center"
             android:layout_gravity="center_vertical|center_horizontal"
             android:gravity="center_vertical|center_horizontal"
+            android:scaleType="center"
+            android:text="100%"
             android:textColor="@color/colorPrimary"
-            android:textSize="45sp" />
+            android:textSize="42sp" />
 
     </FrameLayout>
 

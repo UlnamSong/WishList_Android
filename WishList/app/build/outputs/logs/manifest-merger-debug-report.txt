@@ -9,7 +9,7 @@ MERGED from [com.android.support:cardview-v7:26.1.0] /Users/terry/.gradle/caches
 MERGED from [com.android.support:design:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/15a9d56ff925d505da1994fad898c277/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2d098dc7a8b2ff92ce8e4f9dff254ad3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f65b7ea0224c2ff63ad9bd818509a80b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.jakob-grabner:Circle-Progress-View:v1.2.9.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/Circle-Progress-View-v1.2.9.1.aar/32d5c5b362a1d208615b68cb21a3ff0c/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.4] /Users/terry/.gradle/caches/transforms-1/files-1.1/Circle-Progress-View-1.4.aar/d234f1cebff10fc4c7ba7a6279204a03/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:transition:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/fa9fdb13e2252e5ff363af87ea26e6ae/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/b73311e2a5f0bf43c6406bfc34ee5243/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0ecb7dd4b31085dd6a9ce7f5a69908a9/AndroidManifest.xml:17:1-22:12
@@ -52,8 +52,8 @@ application
 ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:8:5-26:19
 MERGED from [com.android.support:cardview-v7:26.1.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/01727161fcb0d4f316e4becdb3a4c58f/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:cardview-v7:26.1.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/01727161fcb0d4f316e4becdb3a4c58f/AndroidManifest.xml:22:5-26:19
-MERGED from [com.github.jakob-grabner:Circle-Progress-View:v1.2.9.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/Circle-Progress-View-v1.2.9.1.aar/32d5c5b362a1d208615b68cb21a3ff0c/AndroidManifest.xml:11:5-20
-MERGED from [com.github.jakob-grabner:Circle-Progress-View:v1.2.9.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/Circle-Progress-View-v1.2.9.1.aar/32d5c5b362a1d208615b68cb21a3ff0c/AndroidManifest.xml:11:5-20
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.4] /Users/terry/.gradle/caches/transforms-1/files-1.1/Circle-Progress-View-1.4.aar/d234f1cebff10fc4c7ba7a6279204a03/AndroidManifest.xml:11:5-20
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.4] /Users/terry/.gradle/caches/transforms-1/files-1.1/Circle-Progress-View-1.4.aar/d234f1cebff10fc4c7ba7a6279204a03/AndroidManifest.xml:11:5-20
 	android:supportsRtl
 		ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -64,7 +64,7 @@ MERGED from [com.github.jakob-grabner:Circle-Progress-View:v1.2.9.1] /Users/terr
 		ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:13:9-40
-activity#com.ulnamsong.wishlist.Activity.SplashActivity
+activity#com.ulnamsong.todolist.Activity.SplashActivity
 ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
 		ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:14:19-58
@@ -78,17 +78,17 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:18:27-74
-activity#com.ulnamsong.wishlist.Activity.InitialActivity
+activity#com.ulnamsong.todolist.Activity.InitialActivity
 ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:21:9-62
 	android:name
 		ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:21:19-59
-activity#com.ulnamsong.wishlist.Activity.MainWishActivity
+activity#com.ulnamsong.todolist.Activity.MainWishActivity
 ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:22:9-24:64
 	android:label
 		ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:24:13-61
 	android:name
 		ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:23:13-54
-activity#com.ulnamsong.wishlist.Activity.StatisticsActivity
+activity#com.ulnamsong.todolist.Activity.StatisticsActivity
 ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:25:9-74
 	android:name
 		ADDED from /Users/terry/AndroidStudioProjects/WishList_Android/WishList/app/src/main/AndroidManifest.xml:25:19-62
@@ -106,8 +106,8 @@ MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/terry/.gradle/ca
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2d098dc7a8b2ff92ce8e4f9dff254ad3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f65b7ea0224c2ff63ad9bd818509a80b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f65b7ea0224c2ff63ad9bd818509a80b/AndroidManifest.xml:20:5-44
-MERGED from [com.github.jakob-grabner:Circle-Progress-View:v1.2.9.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/Circle-Progress-View-v1.2.9.1.aar/32d5c5b362a1d208615b68cb21a3ff0c/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.jakob-grabner:Circle-Progress-View:v1.2.9.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/Circle-Progress-View-v1.2.9.1.aar/32d5c5b362a1d208615b68cb21a3ff0c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.4] /Users/terry/.gradle/caches/transforms-1/files-1.1/Circle-Progress-View-1.4.aar/d234f1cebff10fc4c7ba7a6279204a03/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:1.4] /Users/terry/.gradle/caches/transforms-1/files-1.1/Circle-Progress-View-1.4.aar/d234f1cebff10fc4c7ba7a6279204a03/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:transition:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/fa9fdb13e2252e5ff363af87ea26e6ae/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/fa9fdb13e2252e5ff363af87ea26e6ae/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/b73311e2a5f0bf43c6406bfc34ee5243/AndroidManifest.xml:20:5-44

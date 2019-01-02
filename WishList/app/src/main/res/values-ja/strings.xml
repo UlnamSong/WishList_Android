@@ -130,5 +130,5 @@
     <string name="edit_repeat_error_title">入力エラー</string>
     <string name="edit_repeat_error_content">正しい値を入力してください。</string>
 
-    <string name="splash_bottom">注意!&#10;アプリを削除したり、機器を初期化すると、&#10;すべてのデータが失われます。</string>
+    <string name="splash_bottom">注意!\nアプリを削除したり、機器を初期化すると、\nすべてのデータが失われます。</string>
 </resources>

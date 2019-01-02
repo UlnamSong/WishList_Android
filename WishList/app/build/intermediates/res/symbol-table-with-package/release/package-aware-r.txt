@@ -1,4 +1,4 @@
-com.ulnamsong.wishlist
+com.ulnamsong.todolist
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -149,6 +149,7 @@ attr cpv_barColor2
 attr cpv_barColor3
 attr cpv_barStartEndLine
 attr cpv_barStartEndLineColor
+attr cpv_barStartEndLineSweep
 attr cpv_barStartEndLineWidth
 attr cpv_barStrokeCap
 attr cpv_barWidth
@@ -160,14 +161,18 @@ attr cpv_fillColor
 attr cpv_innerContourColor
 attr cpv_innerContourSize
 attr cpv_maxValue
+attr cpv_maxValueAllowed
+attr cpv_minValueAllowed
 attr cpv_outerContourColor
 attr cpv_outerContourSize
 attr cpv_rimColor
 attr cpv_rimWidth
 attr cpv_roundToBlock
+attr cpv_roundToWholeNumber
 attr cpv_seekMode
 attr cpv_showTextInSpinningMode
 attr cpv_showUnit
+attr cpv_spin
 attr cpv_spinBarLength
 attr cpv_spinColor
 attr cpv_spinSpeed
@@ -834,6 +839,7 @@ drawable pencil
 drawable plus
 drawable primary_button_bg
 drawable side_nav_bar
+drawable splash_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1245,6 +1251,7 @@ string additem_inputerror
 string additem_inputerror_content
 string app_name
 string appbar_scrolling_view_behavior
+string bold_font
 string bottom_sheet_behavior
 string card_finish
 string character_counter_pattern
@@ -1280,6 +1287,7 @@ string edit_repeat_dialog_content
 string edit_repeat_dialog_title
 string edit_repeat_error_content
 string edit_repeat_error_title
+string ex_bold_font
 string exit_dialog_content
 string exit_dialog_title
 string importance_finish
@@ -1303,6 +1311,7 @@ string iteminfo_dialog_finish_date
 string iteminfo_dialog_importancy
 string iteminfo_dialog_progress_tag
 string iteminfo_dialog_title
+string main_font
 string modify_text
 string name_input
 string navigation_drawer_close
@@ -1728,7 +1737,7 @@ styleable BottomNavigationView elevation itemBackground itemIconTint itemTextCol
 styleable BottomSheetBehavior_Layout behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
-styleable CircleProgressView cpv_autoTextColor cpv_autoTextSize cpv_barColor cpv_barColor1 cpv_barColor2 cpv_barColor3 cpv_barStartEndLine cpv_barStartEndLineColor cpv_barStartEndLineWidth cpv_barStrokeCap cpv_barWidth cpv_blockCount cpv_blockScale cpv_decimalFormat cpv_direction cpv_fillColor cpv_innerContourColor cpv_innerContourSize cpv_maxValue cpv_outerContourColor cpv_outerContourSize cpv_rimColor cpv_rimWidth cpv_roundToBlock cpv_seekMode cpv_showTextInSpinningMode cpv_showUnit cpv_spinBarLength cpv_spinColor cpv_spinSpeed cpv_startAngle cpv_text cpv_textColor cpv_textMode cpv_textScale cpv_textSize cpv_textTypeface cpv_unit cpv_unitColor cpv_unitPosition cpv_unitScale cpv_unitSize cpv_unitToTextScale cpv_unitTypeface cpv_value
+styleable CircleProgressView cpv_autoTextColor cpv_autoTextSize cpv_barColor cpv_barColor1 cpv_barColor2 cpv_barColor3 cpv_barStartEndLine cpv_barStartEndLineColor cpv_barStartEndLineSweep cpv_barStartEndLineWidth cpv_barStrokeCap cpv_barWidth cpv_blockCount cpv_blockScale cpv_decimalFormat cpv_direction cpv_fillColor cpv_innerContourColor cpv_innerContourSize cpv_maxValue cpv_maxValueAllowed cpv_minValueAllowed cpv_outerContourColor cpv_outerContourSize cpv_rimColor cpv_rimWidth cpv_roundToBlock cpv_roundToWholeNumber cpv_seekMode cpv_showTextInSpinningMode cpv_showUnit cpv_spin cpv_spinBarLength cpv_spinColor cpv_spinSpeed cpv_startAngle cpv_text cpv_textColor cpv_textMode cpv_textScale cpv_textSize cpv_textTypeface cpv_unit cpv_unitColor cpv_unitPosition cpv_unitScale cpv_unitSize cpv_unitToTextScale cpv_unitTypeface cpv_value
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha
